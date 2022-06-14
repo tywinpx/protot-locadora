@@ -1,0 +1,48 @@
+body{
+  background-color: #4472c7;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+section {
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.33);
+  background-color: white;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  border-radius: 15px;
+  padding: 15px;
+}
+header img{
+  border-radius: 15px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+  -webkit-box-shadow: 3px 50px 20px 9px rgba(0,0,0,0.14); 
+box-shadow: 3px 50px 20px 9px rgba(0,0,0,0.14);
+  transform: translatey(-50%)
+}
+header{
+  text-align: center;
+}
+button {
+    width: 10rem;
+    max-width: 10rem;
+    padding: .8rem 1.5rem;
+    margin: 2rem auto;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 15px;
+}
+h1 {
+  text-align: center;
+}
+.form input{
+  padding: 10px 15px;
+}
+.form select{
+  padding: 10px 15px;
+}

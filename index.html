@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+  <section>
+    <header>
+      <img src="https://1.bp.blogspot.com/-tamoFQuax6U/YH7VACmYD6I/AAAAAAAAOxc/VfAgx7IECMkm16AtXoMwkkBK_5eL57_TwCLcBGAsYHQ/w945-h600-p-k-no-nu/LogoLocadora.png"/>
+      </header>
+    <h1>Login</h1>
+    <div class="form">
+    <td>
+      <input type="text" id="inputEmail" name="email" onblur="login(f1.email)" placeholder="E-mail"/>
+    </td> 
+    <td>
+<div id="msgemail"></div>
+</td>
+      <br>
+    <td>  
+      <input type="password" id="senha" name="senha" placeholder="Senha" minlength="8" required/>
+      <br>
+          <button onclick="login()" id="btnLogin">Login</button> 
+         
+          <button onclick="cadastrar()" id="btnCadastrar">Cadastrar </button><br>
+      <button onclick="recuperar()" id="btnRec">Recuperar senha </button>
+        </div>
+    </td>
+  </section>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
